@@ -1,0 +1,78 @@
+{
+  "name": "42-python-format",
+  "displayName": "42 Python Format",
+  "description": "VS Code formatter extension for Python projects that uses autopep8 to keep code flake8-friendly.",
+  "version": "0.0.2",
+  "publisher": "danyarwx",
+  "preview": true,
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danyarwx/py_formatter_42.git",
+    "directory": "python/vscode-42-python-format"
+  },
+  "bugs": {
+    "url": "https://github.com/danyarwx/py_formatter_42/issues"
+  },
+  "homepage": "https://github.com/danyarwx/py_formatter_42/tree/main/python/vscode-42-python-format",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "galleryBanner": {
+    "color": "#19395A",
+    "theme": "dark"
+  },
+  "categories": [
+    "Formatters"
+  ],
+  "activationEvents": [
+    "onLanguage:python"
+  ],
+  "keywords": [
+    "python",
+    "42",
+    "format",
+    "formatter",
+    "flake8",
+    "autopep8"
+  ],
+  "main": "./out/extension.js",
+  "extensionKind": [
+    "workspace"
+  ],
+  "contributes": {
+    "configuration": {
+      "title": "42 Python Format",
+      "properties": {
+        "42-python-format.executable": {
+          "type": "string",
+          "default": "autopep8",
+          "description": "The executable name or full path used to launch the formatter. Do not include arguments here."
+        },
+        "42-python-format.args": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "-"
+          ],
+          "description": "Command-line arguments passed to the formatter. Supports ${file} and ${workspaceFolder} placeholders."
+        }
+      }
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package:vsix": "npx @vscode/vsce package",
+    "publish:vsix": "npx @vscode/vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "14.x",
+    "@types/vscode": "^1.63.0",
+    "typescript": "^4.5.4"
+  }
+}
