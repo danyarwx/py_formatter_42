@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.0.4
+
+- Reworked the Marketplace title, description, and README to better target 42 students.
+- Added clearer guidance for the new Python curriculum and quick formatting shortcuts.
+
 ## 0.0.3
 
 - Simplified the Marketplace README.

@@ -1,8 +1,8 @@
 {
   "name": "42-python-format",
-  "displayName": "42 Python Format",
-  "description": "Format Python files with autopep8 and keep them flake8-friendly in VS Code.",
-  "version": "0.0.3",
+  "displayName": "42 Python Formatter - AutoPEP8 + Flake8",
+  "description": "Built for 42 students. Format your Python code instantly to match flake8 standards used in the new curriculum.",
+  "version": "0.0.4",
   "publisher": "danyarwx",
   "preview": false,
   "icon": "images/icon.png",
@@ -31,10 +31,14 @@
   "keywords": [
     "python",
     "42",
+    "42-school",
+    "piscine",
     "format",
     "formatter",
     "flake8",
-    "autopep8"
+    "autopep8",
+    "pep8",
+    "curriculum"
   ],
   "main": "./out/extension.js",
   "extensionKind": [
@@ -42,7 +46,7 @@
   ],
   "contributes": {
     "configuration": {
-      "title": "42 Python Format",
+      "title": "42 Python Formatter",
       "properties": {
         "42-python-format.executable": {
           "type": "string",

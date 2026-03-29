@@ -11,7 +11,7 @@ const UI_LABELS = {
   showOutput: 'Show Output',
 } as const;
 
-const outputChannel = vscode.window.createOutputChannel('42 Python Format');
+const outputChannel = vscode.window.createOutputChannel('42 Python Formatter');
 
 type FormatterConfiguration = {
   executable: string;
@@ -107,7 +107,7 @@ class PythonDocumentFormattingEditProvider implements vscode.DocumentFormattingE
         if (code !== 0) {
           outputChannel.appendLine(`[${new Date().toLocaleTimeString()}] Formatter exited with code ${code}.`);
           vscode.window.showErrorMessage(
-            '42 Python Format: formatting failed. See output for details.',
+            '42 Python Formatter: formatting failed. See output for details.',
             UI_LABELS.showOutput
           ).then(selection => {
             if (selection === UI_LABELS.showOutput) {
@@ -157,7 +157,7 @@ class PythonDocumentFormattingEditProvider implements vscode.DocumentFormattingE
 export function activate(context: vscode.ExtensionContext) {
   const statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
   statusBarItem.text = '$(code) 42PyFmt';
-  statusBarItem.tooltip = '42 Python Format is active';
+  statusBarItem.tooltip = '42 Python Formatter is active';
   statusBarItem.show();
 
   context.subscriptions.push(statusBarItem);

@@ -1,13 +1,15 @@
-# 42 Python Format
+# 42 Python Formatter
 
-42 Python Format formats Python files with `autopep8` and helps keep them flake8-friendly inside VS Code.
+Built for 42 students. Format your Python code instantly to match flake8 standards used in the new curriculum.
 
-## Features
+## Why 42 Students Use It
 
-- Format Python files with the standard VS Code formatter flow.
-- Works with `Format Document` and format on save.
-- Uses `autopep8` to fix formatting-related flake8 and pycodestyle issues.
-- Lets you configure the formatter executable and arguments.
+- One-click format with `Format Document`
+- Flake8-compliant formatting for the new curriculum
+- Zero-config setup with `autopep8`
+- Works well for 42 Piscine exercises and 42 projects
+
+Inspired by the popular 42 C formatter workflow, but made for Python.
 
 ## Requirements
 
@@ -35,7 +37,7 @@ Then format the current file with:
 - macOS: `Shift+Option+F`
 - Windows/Linux: `Shift+Alt+F`
 
-You can also use the `Format Document` command from the Command Palette.
+You can also use `Cmd+Shift+P` / `Ctrl+Shift+P` and run `Format Document`.
 
 ## Settings
 
