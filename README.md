@@ -2,21 +2,39 @@
 
 Built for 42 students. Format your Python code instantly to match flake8 standards used in the new curriculum.
 
-## Why 42 Students Use It
+## Features
 
 - One-click format with `Format Document`
 - Flake8-compliant formatting for the new curriculum
-- Zero-config setup with `autopep8`
-- Works well for 42 Piscine exercises and 42 projects
 
-Inspired by the popular 42 C formatter workflow, but made for Python.
+![feature gif](images/demo.gif)
 
 ## Requirements
+
+> [!IMPORTANT]
+> Installing `autopep8` is required for this extension to work.
 
 Install `autopep8` in your Python environment:
 
 ```bash
-pip install autopep8
+pip3 install autopep8
+pip3 install --user autopep8  # If you don't have root privileges
+```
+
+Or install it system-wide with Homebrew on macOS:
+
+```bash
+brew install autopep8  # System-wide install with Homebrew
+```
+
+### You might see:
+
+`error: externally-managed-environment`
+
+In that case, install with:
+
+```bash
+pip3 install --break-system-packages autopep8
 ```
 
 ## Quick Start
