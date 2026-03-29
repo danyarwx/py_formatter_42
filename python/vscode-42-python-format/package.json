@@ -1,10 +1,10 @@
 {
   "name": "42-python-format",
   "displayName": "42 Python Format",
-  "description": "VS Code formatter extension for Python projects that uses autopep8 to keep code flake8-friendly.",
-  "version": "0.0.2",
+  "description": "Format Python files with autopep8 and keep them flake8-friendly in VS Code.",
+  "version": "0.0.3",
   "publisher": "danyarwx",
-  "preview": true,
+  "preview": false,
   "icon": "images/icon.png",
   "repository": {
     "type": "git",

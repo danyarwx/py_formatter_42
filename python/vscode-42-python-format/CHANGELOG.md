@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.0.3
+
+- Simplified the Marketplace README.
+- Updated the extension description.
+- Added formatting shortcut guidance for quick usage.
+
 ## 0.0.2
 
 - Fixed the default `autopep8` arguments to use stdin correctly.
