@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.0.5
+
+- Updated the README requirements section to make it clear that installing `autopep8` is required.
+- Added installation guidance for `pip3`, `pip3 install --user`, and Homebrew on macOS.
+`--break-system-packages` workaround.
+
 ## 0.0.4
 
 - Reworked the Marketplace title, description, and README to better target 42 students.
