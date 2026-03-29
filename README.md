@@ -4,8 +4,8 @@ Built for 42 students. Format your Python code instantly to match flake8 standar
 
 ## Features
 
-- One-click format with `Format Document`
-- Flake8-compliant formatting for the new curriculum
+- One-click format with `Format Document` or `Shift + Alt + F`
+- Flake8-compliant formatting for the new 42 curriculum
 
 ![feature gif](images/demo.gif)
 
@@ -14,7 +14,7 @@ Built for 42 students. Format your Python code instantly to match flake8 standar
 > [!IMPORTANT]
 > Installing `autopep8` is required for this extension to work.
 
-Install `autopep8` in your Python environment:
+In your Python environment:
 
 ```bash
 pip3 install autopep8
