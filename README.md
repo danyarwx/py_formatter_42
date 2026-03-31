@@ -11,7 +11,6 @@ Built for 42 students. Format your Python code instantly to match flake8 standar
 
 ## Requirements
 
-> [!IMPORTANT]
 > Installing `autopep8` is required for this extension to work.
 
 In your Python environment:
@@ -19,12 +18,6 @@ In your Python environment:
 ```bash
 pip3 install autopep8
 pip3 install --user autopep8  # If you don't have root privileges
-```
-
-Or install it system-wide with Homebrew on macOS:
-
-```bash
-brew install autopep8  # System-wide install with Homebrew
 ```
 
 ### You might see:
@@ -36,6 +29,13 @@ In that case, install with:
 ```bash
 pip3 install --break-system-packages autopep8
 ```
+
+Or install it system-wide with Homebrew on macOS:
+
+```bash
+brew install autopep8  # System-wide install with Homebrew
+```
+
 
 ## Quick Start
 
