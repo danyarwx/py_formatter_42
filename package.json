@@ -2,7 +2,7 @@
   "name": "42-python-format",
   "displayName": "42 Python Formatter - AutoPEP8 + Flake8",
   "description": "Built for 42 students. Format your Python code instantly to match flake8 standards used in the new curriculum.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "danyarwx",
   "preview": false,
   "icon": "images/icon.png",

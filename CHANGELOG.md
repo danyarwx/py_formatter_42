@@ -1,10 +1,15 @@
 # Change Log
 
+## 0.0.6
+
+- Expanded the README quick-start instructions for setting the extension as the default Python formatter.
+- Clarified installation guidance for `autopep8`, including common `pip3`, `--user`, and `--break-system-packages` flows.
+
 ## 0.0.5
 
 - Updated the README requirements section to make it clear that installing `autopep8` is required.
 - Added installation guidance for `pip3`, `pip3 install --user`, and Homebrew on macOS.
-`--break-system-packages` workaround.
+- Added the `--break-system-packages` workaround.
 
 ## 0.0.4
 
